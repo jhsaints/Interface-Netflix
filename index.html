@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/main.css">
-    <title>NetFlix</title>
+    <link rel="stylesheet" href="/style/olw/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/olw/owl.theme.default.min.css">
+
+    <!-- responsividade-->
+ <link rel="stylesheet" href="/style/responsive.css">
+
+    <title>NtFlix</title>
+    
 </head>
 <body>
     <header>
@@ -26,14 +33,43 @@
                 <h3 class="titulo">HOUSE OF CARDS</h3>
                 <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.
                 </p>
-                <button role="button" class="botao">
-                                                        ASSISTIR AGORA
+                <button id="botao1" role="button" class="botao" > <i class="fa-solid fa-circle-play"></i>
+                                                       ASSISTIR AGORA
                 </button>
-                <button role="button" class="botao">
+                <button id="botao2" role="button" class="botao"> <i class="fa-solid fa-circle-info"></i>
                                                         MAIS INFORMAÇÕES
                 </button>
             </div>
         </div>
     </main>
+    <div id="carrosel-fimes" class="owl-carousel owl-theme">
+        <div class="item"><h4>       <img src="/img/1_codigo.jpg">        </h4></div>
+        <div class="item"><h4>       <img src="/img/2_got.jpg">        </h4></div>
+        <div class="item"><h4>       <img src="/img/3_imbativel.jpg">        </h4></div>
+        <div class="item"><h4>       <img src="/img/4_lucifer.jpg">        </h4></div>
+        <div class="item"><h4>       <img src="/img/5_matrix.jpg">        </h4></div>
+        <div class="item"><h4>       <img src="/img/6_pacificador.jpg">        </h4></div>
+        <div class="item"><h4>       <img src="/img/7_resident.jpg">        </h4></div>
+        <div class="item"><h4>       <img src="/img/8_shang.jpg">        </h4></div>
+        <div class="item"><h4>       <img src="/img/9_spider.jpg">        </h4></div>
+        <div class="item"><h4>       <img src="/img/10_venon.jpg">        </h4></div>
+       
+    </div>
+    <!-- <div class="Carrosel-filmes">
+            <div class="olw-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="/img/1_codigo.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="/img/2_got.jpg" alt="" srcset="">
+                </div>
+            </div>
+    </div> -->
+
+    <script src="https://kit.fontawesome.com/729abec6ac.js" crossorigin="anonymous"></script>
+    <script src="/js/olw/jquery.min.js"z></script>
+    <script src="/js/olw/owl.carousel.min.js"z></script>
+    <script src="/js/setup.js"></script>
+
 </body>
 </html>

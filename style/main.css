@@ -13,7 +13,7 @@
 
 body{
     background-color: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: rgb(255, 255, 255);
 }
 
@@ -43,23 +43,53 @@ header nav a:hover{
 }
 
 .filme-principal {
-    
+    padding-left: 30px;
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)100%), url('/img/fundo.jpg');
-    height: 400px;
+    height: 500px;
     background-size:cover;
     display: flex;
+    display: flexbox;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.filme-principal .container{
+        width: 75%;
+}
 
 .botao {
     margin-top: 40px;
+    background-color: rgba(0,0,0, .50);
+    color: aliceblue;
+    padding: 15px 30px;
+    border: none;
+    margin-right: 15px; 
+
+    cursor: pointer;
+    transition: .5s ease all;
+        
 }
+
+.botao:hover{
+    background-color: white;
+    color: #141414;
+   
+}
+
 
 .titulo {
     font-size: 40px;
     font: bolder 40pt times ;
+    margin-top: 25%;
+    
 }
+
+.botao i {
+    margin-right: 8px;
+}
+
+/* wrapper */
+
